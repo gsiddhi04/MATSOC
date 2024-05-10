@@ -1,0 +1,112 @@
+/* Custom CSS */
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Macondo+Swash+Caps&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", sans-serif; 
+}
+.section {
+    padding: 1% 0;
+     
+}
+#about {
+    padding: 10% 0;
+     
+}
+.card-image {
+    height: 300px;
+    width: auto;
+}
+.news-image{
+    width:80%;
+    height: auto;
+}
+.event,
+.news-item,
+.blog,
+.project,
+.team-member {
+    margin-bottom: 30px;
+}
+
+.footer {
+    padding: 30px 0;
+    background-color: black;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+}
+
+.footer ul li a:hover {
+    color: #ccc;
+}
+
+.list-inline-item {
+    margin-right: 10px;
+}
+/* Custom CSS */
+.event {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.event p {
+    color: #666;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #333;
+}
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+    color: #fff;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: #fff0;;
+}
+/* Custom CSS */
+.team-member {
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    max-width: 100%;
+    height: auto;
+}
+
+.team-member h4 {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 5px;
+    color: #333;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
